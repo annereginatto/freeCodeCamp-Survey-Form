@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey Form</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </header>
+  <main>
+    <form id="survey-form">
+      <div class="name">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required><br><br>
+      </div>
+      <div class="email">
+        <label for="email" id="email-label">E-mail</label><br>
+        <input type="email" id="email" placeholder="Enter your e-mail" required><br><br>
+      </div>
+      <div class="age">
+        <label for="age" id="number-label">Age <span class="clue">(optional)<span></label><br>
+        <input type="number" id="number" placeholder="Age" min="10" max="100"><br><br>
+      </div>
+      <div class="role">
+        <label for="dropdown">What option best describes your current role?</label><br>
+        <select id="dropdown" name="dropdown">
+          <option disabled value="" selected="selected">Select current role</option>
+          <option value="student">Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select>
+      </div><br>
+      <div class="recommend">
+        <label for="name">Would you recommend freeCodeCamp to a friend?</label><br>
+        <input type="radio" name="name" value="Definately" checked> Definately<br>
+        <input type="radio" name="name" value="Maybe"> Maybe<br>
+        <input type="radio" name="name" value="not sure"> Not sure <br>
+      </div><br>
+      <div class="feature">
+        <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
+        <select list="feature" id="feature">
+          <option disabled value="" selected="selected">Select an option</option>
+          <option value="challenges">Challenges</option>
+          <option value="projects">Projects</option>
+          <option value="community">Community</option>
+          <option value="open-souce">Open Source</option>
+        </select>
+      </div><br>
+      <div class="improve">
+        <label for="improve">What woudl you like to see improved? <span class="clue"> (Check all that apply)<span></label><br>
+        <input type="checkbox" name="improve" value="front-end-projects"> Front-end Projects<br>
+        <input type="checkbox" name="improve" value="back-end-projects"> Back-end Projects <br>
+        <input type="checkbox" name="improve" value="data-visualization"> Data Visualization<br>
+        <input type="checkbox" name="improve" value="challenges"> Challenges<br>
+        <input type="checkbox" name="improve" value="open-source-community"> Open Source Community<br>
+        <input type="checkbox" name="improve" value="gitter-help-rooms"> Gitter Help Rooms<br>
+        <input type="checkbox" name="improve" value="videos"> Videos<br>
+        <input type="checkbox" name="improve" value="city-meetups"> City Meetups<br>
+        <input type="checkbox" name="improve" value="wiki"> Wiki<br>
+        <input type="checkbox" name="improve" value="forum"> Forum<br>
+        <input type="checkbox" name="improve" value="additional-courses"> Additional Courses<br><br>
+        <label for="comments-suggestions">Any comments or suggestions?</label><br>
+      </div>
+      <div class="textarea">
+        <textarea id="comments-suggestions" name="comments-suggestions" rows="5" cols="50" placeholder="Enter your comment here..."></textarea><br>
+      </div><br>
+      <button type="submit" id="submit">Submit</button><br>
+    </form>
+  </main>
+  <footer>
+    <br><br>
+    <p>Desenvolvido por Anne Reginatto</p>
+    <div class="img">
+      <a href="https://www.linkedin.com/in/anne-reginatto/" target="_blank"><img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
+      <a href="https://github.com/annereginatto" target="_blank"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></a>
+      <a href="https://discordapp.com/users/885167937298763807/" target="_blank"><img class="discord" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-your-gaming-dude-rsps-wow-minecraft-and-maplestory-2.png"></a>
+      <a href="https://codepen.io/annereginatto" target="_blank"><img class="codepen" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"></a>
+
+      <a href="malito:annereginatto@gmail.com" target="_blank"><img class="gmail" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png"></a>
+    </div>
+  </footer>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
