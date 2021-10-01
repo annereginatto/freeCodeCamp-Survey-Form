@@ -86,10 +86,7 @@ footer p {
   cursor: default;
   font-family: "Gloria Hallelujah", cursive;
   letter-spacing: 3px;
-<<<<<<< HEAD
   margin-bottom: 5px;
-=======
->>>>>>> 8dc0baee0c9afe4d81ced5765851be128efd4d22
 }
 
 footer p:hover {
@@ -99,12 +96,7 @@ footer p:hover {
 }
 
 .linkedin,
-<<<<<<< HEAD
 .github {
-=======
-.github,
-.codepen {
->>>>>>> 8dc0baee0c9afe4d81ced5765851be128efd4d22
   width: 30px;
 }
 
@@ -117,14 +109,9 @@ footer p:hover {
   transition-duration: 0.5s;
 }
 
-<<<<<<< HEAD
 .gmail, .codepen, .discord {
   width: 33px;
   height: 33px;
-=======
-.gmail, .discord {
-  width: 35px;
->>>>>>> 8dc0baee0c9afe4d81ced5765851be128efd4d22
 }
 
 .linkedin,
@@ -132,13 +119,8 @@ footer p:hover {
 .discord,
 .codepen,
 .gmail {
-<<<<<<< HEAD
   padding-left: 15px;
   padding-right: 15px;
-=======
-  padding-left: 10px;
-  padding-right: 10px;
->>>>>>> 8dc0baee0c9afe4d81ced5765851be128efd4d22
 }
 
 .github,
