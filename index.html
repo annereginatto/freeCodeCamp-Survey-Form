@@ -8,6 +8,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<body>
   <header>
     <h1 id="title">Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
@@ -28,7 +29,7 @@
       </div>
       <div class="role">
         <label for="dropdown">What option best describes your current role?</label><br>
-        <select id="dropdown" name="dropdown">
+        <select id="dropdown" name="dropdown" required>
           <option disabled value="" selected="selected">Select current role</option>
           <option value="student">Student</option>
           <option value="full-time-job">Full Time Job</option>
@@ -45,7 +46,7 @@
       </div><br>
       <div class="feature">
         <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
-        <select list="feature" id="feature">
+        <select list="feature" id="feature" required>
           <option disabled value="" selected="selected">Select an option</option>
           <option value="challenges">Challenges</option>
           <option value="projects">Projects</option>
@@ -54,7 +55,7 @@
         </select>
       </div><br>
       <div class="improve">
-        <label for="improve">What woudl you like to see improved? <span class="clue"> (Check all that apply)<span></label><br>
+        <label for="improve">What would you like to see improved? <span class="clue"> (Check all that apply)<span></label><br>
         <input type="checkbox" name="improve" value="front-end-projects"> Front-end Projects<br>
         <input type="checkbox" name="improve" value="back-end-projects"> Back-end Projects <br>
         <input type="checkbox" name="improve" value="data-visualization"> Data Visualization<br>
@@ -80,13 +81,14 @@
     <div class="img">
       <a href="https://www.linkedin.com/in/anne-reginatto/" target="_blank"><img class="linkedin" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"></a>
       <a href="https://github.com/annereginatto" target="_blank"><img class="github" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"></a>
-      <a href="https://discordapp.com/users/885167937298763807/" target="_blank"><img class="discord" src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-icon-your-gaming-dude-rsps-wow-minecraft-and-maplestory-2.png"></a>
+      <a href="https://discordapp.com/users/885167937298763807/" target="_blank"><img class="discord" src="https://discord.com/assets/145dc557845548a36a82337912ca3ac5.svg"></a>
       <a href="https://codepen.io/annereginatto" target="_blank"><img class="codepen" src="https://blog.codepen.io/wp-content/uploads/2012/06/Button-Black-Large.png"></a>
 
-      <a href="malito:annereginatto@gmail.com" target="_blank"><img class="gmail" src="https://www.freepnglogos.com/uploads/gmail-email-logo-png-16.png"></a>
+      <a href="malito:annereginatto@gmail.com" target="_blank"><img class="gmail" src="https://cdn.worldvectorlogo.com/logos/gmail-icon.svg"></a>
     </div>
   </footer>
 <!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
