@@ -96,9 +96,8 @@ footer p:hover {
 
 .linkedin,
 .github,
-.discord,
 .codepen {
-  width: 40px;
+  width: 30px;
 }
 
 .linkedin:hover,
@@ -110,8 +109,8 @@ footer p:hover {
   transition-duration: 0.5s;
 }
 
-.gmail {
-  width: 50px;
+.gmail, .discord {
+  width: 35px;
 }
 
 .linkedin,
